@@ -1,0 +1,26 @@
+{
+  "name": "thabiso-rantsho-222-memory-game-in-vanilla-js-javascript",
+  "version": "1.0.0",
+  "description": "Memory game web app (222) For raw project instructions see: http://syllabus.africacode.net/projects/memory-game/part-1/",
+  "main": "src/memory_game.js",
+  "scripts": {
+    "test": "jasmine",
+    "build": "webpack --watch"
+  },
+  "author": {
+    "name": "Thabiso Rantsho",
+    "email": "thabiso.rantsho@Umuzi.org",
+    "github": "https://github.com/superUserT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Umuzi-org/Thabiso-Rantsho-959-contentitem-javascript"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.2.0",
+    "jsdom": "^24.1.1",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1 id="memory-game">Memory Game</h1>
+    <div id="turns-counter" class="turns-counter">Turns: 0</div>
+    <div class="grid-selection">
+      <label for="grid-selector">Select Grid Size:</label>
+      <select id="grid-selector">
+        <option value="2x2">2x2</option>
+        <option value="3x2">3x2</option>
+        <option value="3x4">3x4</option>
+        <option value="4x3" selected>4x3</option>
+        <option value="4x4">4x4</option>
+      </select>
+      <button id="apply-grid">Apply</button>
+    </div>
+    <div id="game-board" class="section main"></div>
+    <button id="restart">Restart</button>
+    <div id="timerDisplay" class="timer">Timer: 0 seconds</div>
+    <div id="popup" class="popup hidden">
+      <div class="popup-content">
+        <p id="congrats-message">Congratulations! You matched all pairs!</p>
+        <p id="timerDone" class="timerDone">You took: seconds</p>
+        <button id="play-again">Play Again</button>
+      </div>
+    </div>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>
